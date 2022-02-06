@@ -1,0 +1,38 @@
+.title {
+  font-size: 25px;
+  color: #333;
+  padding: 20px;
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.link {
+  display: inline-block;
+  font-size: 16px;
+  color: #0051ff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background: #eee;
+  margin: 5px;
+  padding: 5px;
+}
+
+.id {
+  width: 50px;
+}
+
+.name {
+  width: 250px;
+}

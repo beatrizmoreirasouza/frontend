@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+}
+
+.logotipo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.logotipo span,
+.logotipo i {
+  font-size: 30px;
+}
+
+.logotipo i {
+  color: #7932d3;
+}
+
+.logotipo span {
+  color: #888;
+}
